@@ -37,6 +37,9 @@ TARGET_NO_BOOTLOADER := true
 # Build Rules
 BUILD_BROKEN_DUP_RULES := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
