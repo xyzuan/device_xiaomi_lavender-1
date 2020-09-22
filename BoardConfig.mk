@@ -57,3 +57,5 @@ TARGET_KERNEL_CONFIG := lavender_defconfig
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
 
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
