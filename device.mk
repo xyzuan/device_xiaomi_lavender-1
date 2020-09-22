@@ -6,3 +6,6 @@
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender
