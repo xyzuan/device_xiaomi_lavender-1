@@ -10,6 +10,10 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 #HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
